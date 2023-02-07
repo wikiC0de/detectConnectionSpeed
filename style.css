@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  direction: rtl;
+  height: 100vh;
+  background: linear-gradient(#f6fbff 50%, #6a83ff 50%);
+}
+.container {
+  width: 350px;
+  background-color: #ffffff;
+  padding: 4em 2em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.5em;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  line-height: 2.2em;
+  box-shadow: 0 1.6em 2.4em rgb(40, 4, 67, 0.3);
+}
+p {
+  font-size: 400;
+  color: #747497;
+  letter-spacing: 0.02em;
+  margin-top:1rem;
+
+}
+span {
+  font-weight: 500;
+  color: #090931;
+  margin:1rem;
+}
+
+b{
+  text-align: center;
+    border-bottom: 1px solid;
+    padding: 1rem;
+}
